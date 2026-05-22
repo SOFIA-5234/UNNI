@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* รองรับขอบหน้าจอด้านล่างบนมือถือสมาร์ทโฟน */
+.pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* ซ่อนแถบเลื่อน (Scrollbar) เพื่อให้ UI ดูคล้ายแอปพลิเคชัน */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
